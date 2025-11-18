@@ -1,0 +1,16 @@
+let month = 7;
+
+switch (month){
+    case 2:
+        console.log(`${month}월은 28일까지 있습니다`);
+        break;
+    case 4 :
+    case 6 :
+    case 9 :
+    case 11 :
+        console.log(`${month}월은 30일까지 있습니다`);
+        break;
+    default:
+        console.log(`${month}월은 31일까지 있습니다`);
+        break;
+}

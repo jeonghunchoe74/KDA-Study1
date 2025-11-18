@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>Up & Down 게임</title>
+</head>
+<body>
+    <h1>Up & Down 게임</h1>
+    <p>1부터 50 사이의 숫자를 맞춰보세요!</p>
+    <input type="number" style="width: 100px;" id="guessInput" min="1" max="50" placeholder="숫자를 입력하세요" />
+    <button onclick="checkGuess()">제출</button>
+    <p id="result"></p>
+    <script>
+        const answer = Math.floor(Math.random() * 50) + 1;
+        const resultEl = document.getElementById('result');
+        const inputEl = document.getElementById('guessInput');
+        function checkGuess(){
+            const guess = parseInt(inputEl.value);
+
+            if (isNaN(guess) || guess < 1 || guess > 50){
+                resultEl.textContent = "숫자를 입력하세요!"
+                return;
+            }
+
+            if (answer > guess) {
+                resultEl.textContent = "Up"
+            } else if (answer < guess) {
+                resultEl.textContent = "Down"
+            } else {
+                resultEl.textContent = "정답입니다!"
+            }
+            
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+

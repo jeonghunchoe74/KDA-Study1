@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Event</title>
+    <link rel="stylesheet" href="css/myTest.css">
+</head> 
+<body>
+    <ul>
+        <li><a href="#" onclick="changeBG(this, 'pink')">Pink<a/></li>
+        <li><a href="#" onclick="changeBG(this, 'yellow')">Yellow<a/></li>
+        <li><a href="#" onclick="changeBG(this, 'blue')">Blue<a/></li>
+    </ul>
+    <div id="result"></div>
+
+    <script>
+        function changeBG(element, color){
+            let ret = document.getElementById('result');
+            ret.style.backgroundColor = color;
+            element.style.color = color;
+        }
+    </script>
+</body>
+</html>

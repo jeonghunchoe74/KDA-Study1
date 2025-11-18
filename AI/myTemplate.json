@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "adjective",
+        "city",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "{city}\uc758 {adjective} {topic} \ub97c \ucc3e\uc544\uc918",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

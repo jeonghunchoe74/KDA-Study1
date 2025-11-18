@@ -1,0 +1,40 @@
+# 1. 가상환경 & 시스템 파일 (기본)
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# 2. AI 모델 가중치 파일 (용량 주범! 절대 업로드 금지)
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.tflite
+*.pkl
+*.pickle
+*.joblib
+
+# 3. 데이터베이스 & 벡터DB 폴더
+*.db
+*.sqlite3
+my_chroma_db/
+my_fifa_db/
+my_iu_db/
+chroma_db/
+
+# 4. 대용량 데이터셋 & 문서
+*.csv
+*.xlsx
+*.pdf
+*.mp3
+*.mp4
+*.zip
+
+# 5. 기타 로그 및 임시 파일
+*.log
+ipynb_checkpoints/

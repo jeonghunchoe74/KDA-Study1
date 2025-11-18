@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color : black;
+}
+
+ul {
+    list-style: none;
+    width: 500px;
+    margin: 10px auto;
+    padding: 0px;
+    }
+
+li{
+    display:inline-block;
+    width : 120px;
+    padding : 10px 15px;
+    border : solid gray;
+    font-size : 16px;
+    text-align: center;
+}    
+
+#result {
+    width: 500px;
+    height : 300px;
+    margin: 30px auto;
+    border: solid gray;
+    font-size: 16px;
+    border-radius:15px;;
+    text-align: center;
+}

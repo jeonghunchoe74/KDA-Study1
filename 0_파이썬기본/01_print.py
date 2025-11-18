@@ -1,0 +1,5 @@
+print("adf", 1 + 7, sep="*", end="\n")
+print("hello")
+help(input)
+x = input("Enter a number: ")
+print("My age is " + x + " !!")

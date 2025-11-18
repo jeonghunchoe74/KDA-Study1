@@ -1,0 +1,8 @@
+프랑스의 수도는 파리이다. 파리는 유럽에서 가장 인기 있는 관광 도시 중 하나로, 에펠탑과 루브르 박물관이 유명하다.
+
+독일의 수도는 베를린이다. 베를린은 역사적으로 중요한 도시이며, 베를린 장벽으로 유명하다.
+
+일본의 수도는 도쿄이다. 도쿄는 기술과 문화의 중심지로, 애니메이션과 음식 문화가 발달해 있다.
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCTGk31n9hcatwBPaPRRNR9kdylo45GaiBZUasK5/pacFHIS850qyvg/X33ntigDAV05q6vbTxAtlyUhM40Ab0Dye3aY5r8i5sx1sIuv4KKG5lQfKLoAUo7gAPANztFMTiW6rBBSK/1oczmpmeYJtw4zluKRzKrj0kt40KO9oaiinDmOa3nIYKsfRlUA6yWfdm8fJWU1CBlFCfpjR/nBTnAjQB7yECuaZYXsTBeggmBtq7dWZu4vB3uWiNF4K2v+N9TNvmQXlUYFlo3UMtSD7uVTCCH1N1ZBFt/Kmnxqvo2PzTrfzVFHzb4+mifj0sjTJgmQ7MMYbCZwLAilGww8jfB rsa-key-20251017
